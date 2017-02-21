@@ -1,0 +1,15 @@
+[submodule "schemas"]
+	path = schemas
+	url = git@github.com:CommonSenseDTU/schemas.git
+[submodule "omh-dsu-ri"]
+	path = omh-dsu-ri
+	url = git@github.com:CommonSenseDTU/omh-dsu-ri.git
+[submodule "researcher-ui"]
+	path = researcher-ui
+	url = git@github.com:CommonSenseDTU/researcher-ui.git
+[submodule "musli"]
+	path = musli
+	url = git@github.com:CommonSenseDTU/musli.git
+[submodule "ios-template"]
+	path = ios-template
+	url = git@github.com:CommonSenseDTU/ios-template.git
