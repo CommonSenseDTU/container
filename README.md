@@ -5,7 +5,7 @@ eventually be used to run the surveys defined in the researcher-ui.
 
 ## Install build environment
 
-Install [Xcode](https://developer.apple.com/download/). Xcode 8 is (at the time of this writing) shit, so stick with Xcode 7 if you can. If you complete this step, including opening Xcode at least once to ensure that licenses have been agreed to and all components are installed, you should open Xcode at least once before proceeding to the next step.
+Install [Xcode](https://developer.apple.com/download/). If you complete this step, including opening Xcode at least once to ensure that licenses have been agreed to and all components are installed, you should open Xcode at least once before proceeding to the next step.
 
 Install java. At the time of this writing, the latest version is [JDK 8u121](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
