@@ -56,8 +56,7 @@ $ make run-omh
 Next, connect to the postgres server and insert the needed configuration:
 
 ```
-$ docker exec -ti omhdsuri_postgres_1 /bin/bash
-$ psql -U postgres
+$ docker exec -ti omhdsuri_postgres_1 /usr/bin/env psql -U postgres
 ```
 
 Now, insert a row with some client details. The client ids and secrets (```MY_RESEARCHER_CLIENT_SECRET_HERE```) should be replaced with something sensible.
@@ -84,7 +83,7 @@ VALUES (
 
 Bare in mind that this secret is distributed to web clients, so it is important that the scope is limited.
 
-Next, close the connection to the postgresql server and the docker instance (press ^D twice), to proceed.
+Next, close the connection to the postgresql server and the docker instance (press ^D), to proceed.
 
 Once the client has been configured on the server, we need to ensure that the ui has the same client configuration:
 
