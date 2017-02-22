@@ -47,7 +47,7 @@ $ make all
 
 ## Run
 
-Before running the research UI you will need to configure the backend a bit, to get things up and running. To get things started, we need to get the Open mHealth server up and running, so we can load som configurastion into it:
+Before running the research UI you will need to configure the backend a bit, to get things up and running. To get things started, we need to get the Open mHealth server up and running, so we can load som configuration into it:
 
 ```
 $ make run-omh
