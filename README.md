@@ -63,6 +63,7 @@ $ psql -U postgres
 Now, insert a row with some client details. The client ids and secrets (```MY_RESEARCHER_CLIENT_SECRET_HERE```) should be replaced with something sensible.
 
 ```sql
+\c omh
 INSERT INTO oauth_client_details (
   client_id,
   client_secret,
