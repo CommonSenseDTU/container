@@ -91,7 +91,7 @@ Create a file called ```app.config.json``` in the ```researcher-ui``` folder. Th
 
 ```json
 {
-  "clientAuth": "researcher-ui:MY_RESEARCHER_CLIENT_SECRET_HERE",
+  "clientAuth": "researcher-ui:MY_RESEARCHER_CLIENT_SECRET_HERE"
 }
 ```
 
