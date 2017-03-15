@@ -13,3 +13,6 @@
 [submodule "ios-template"]
 	path = ios-template
 	url = git@github.com:CommonSenseDTU/ios-template.git
+[submodule "client-ui-transformer"]
+	path = client-ui-transformer
+	url = git@github.com:CommonSenseDTU/client-ui-transformer.git
