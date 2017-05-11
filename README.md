@@ -106,3 +106,9 @@ If you want to start everything with a single command (say, after a reboot), the
 ## Use
 
 To start using the system, browse to [localhost:8000](http://localhost:8000/).
+
+To build the iOS template application you need an Apple Developer Account. Once that is set up, run:
+
+```
+make ios-client
+```

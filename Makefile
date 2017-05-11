@@ -38,3 +38,8 @@ update-submodules:
 	cd schemas && git pull
 	cd omh-dsu-ri && git pull
 	cd researcher-ui && git pull
+
+.PHONY: ios-client
+ios-client:
+	cd ios-template && pod install
+	cd ios-template && xcrun xcodebuild -scheme template -workspace template.xcworkspace build
